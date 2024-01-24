@@ -1,0 +1,31 @@
+
+name: TemporalContext-BayesDL-main
+
+# higher channels get priority
+channels:
+  - conda-forge
+  - anaconda
+  - defaults
+
+# Prefer conda dependencies over pip wherever possible
+dependencies:
+  - python=3.9
+  - numpy==1.21.2
+  - scipy==1.7.3
+  - matplotlib==3.4.3
+  - seaborn==0.11.2
+  - pandas==1.3.3
+  - scikit-learn==0.24.2
+  - tensorflow==2.6.0
+  - torch==1.10.0
+  - tsai==0.2.21
+  # Uncomment the below to add pip dependencies if necessary"
+  # - pip:
+    # - mydep==1.0
+
+# Define any *static* OS environment variables here
+#   Note: anything dynamic (e.g., referencing other variables) must be set post
+#   environment creation using `conda env config vars set`. See setting the
+#   PYTHONPATH in the README.
+variables:
+  CACHE_NUMBER: 0
