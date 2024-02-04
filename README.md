@@ -48,10 +48,10 @@ git clone https://github.com/imics-lab/TemporalContext-BayesDL.git
 ```
 
 ## Models
-  - Baseline CNN 
-  - BayesDL 
-  - InceptionTimePlus 
-  - LSTNet 
+  - [Baseline CNN](https://github.com/imics-lab/TemporalContext-BayesDL/blob/main/scripts/Baseline_CNN.ipynb)
+  - [BayesDL](https://github.com/imics-lab/TemporalContext-BayesDL/blob/main/scripts/Bayesian_Method.ipynb) 
+  - [InceptionTimePlus](https://github.com/laiguokun/LSTNet)
+  - [LSTNet](https://github.com/timeseriesAI/tsai)
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -64,10 +64,11 @@ Please make sure to update tests as appropriate.
 
 
 ```bibtex
-@article{Habib Irani,
-  title={Enhancing Time-Series Prediction with Temporal Context Modeling:
-         A Bayesian and Deep Learning Synergy},
-  author={(IMICS Lab) - Texas State University},
-  year={2024}
+@article{TemporalContextBayesDL
+  title= {Enhancing Time-Series Prediction with Temporal Context Modeling:
+          A Bayesian and Deep Learning Synergy},
+  author={Habib Irani and Vangelis Metsis},
+  year=  {2024}
+  url =  {https://github.com/imics-lab/TemporalContext-BayesDL}
 }
 ```
