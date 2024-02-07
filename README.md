@@ -64,11 +64,5 @@ Please make sure to update tests as appropriate.
 
 
 ```bibtex
-@article{TemporalContextBayesDL
-  title= {Enhancing Time-Series Prediction with Temporal Context Modeling:
-          A Bayesian and Deep Learning Synergy},
-  author={Habib Irani and Vangelis Metsis},
-  year=  {2024}
-  url =  {https://github.com/imics-lab/TemporalContext-BayesDL}
-}
+TBA
 ```
