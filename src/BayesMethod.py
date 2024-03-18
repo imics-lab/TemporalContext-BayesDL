@@ -89,7 +89,7 @@ def predict_label(cpts, previous_labels, num_classes):
 
     return weighted_average_prob_vector
 
-def Bayesian_probabilities(sequence):
+def Bayesian_probabilities(cpts, sequence, num_classes):
 
     bayesian_probabilities = []
 
