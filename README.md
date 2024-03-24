@@ -43,7 +43,7 @@ conda env create -f environment.yml
 To use this project, run the main script after installation:
 
 ```bash
-python main.py
+python scripts/main.py
 
 ```
 
@@ -95,5 +95,11 @@ Please make sure to update tests as appropriate.
 
 
 ```bibtex
-TBA
+@article{TemporalContext-BayesDL,
+  title={Enhancing Time-Series Prediction with Temporal Context Modeling: 
+         A Bayesian and Deep Learning Synergy},
+  author={Irani, Habib and Metsis, Vangelis},
+  booktitle={The International FLAIRS Conference Proceedings},
+  year={2024}
+}
 ```
