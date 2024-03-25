@@ -1,6 +1,8 @@
 # TemporalContext-BayesDL
 Enhancing Time-Series Prediction with Temporal Context Modeling: A Bayesian and Deep Learning Synergy
 
+[![Conference](https://img.shields.io/badge/Conference-2024-4b44ce.svg)](https://www.flairs-37.info/home)
+
 ## Table of Contents
 - [Description](#description)
 - [Dependencies](#dependencies)
@@ -56,7 +58,7 @@ python scripts/main.py
 ## Example
 Training:
 
-```bash 
+```python 
 from load_data import get_dataset
 from BayesMethod import learn_cpts
 
@@ -69,7 +71,7 @@ with open('cpts.pickle', 'wb') as handle:
   ```
 Inference:
 
-```bash
+```python
 from BayesMethod import Bayesian_probabilities, combine_probabilities
 from utils import tune_lambda_value
 
