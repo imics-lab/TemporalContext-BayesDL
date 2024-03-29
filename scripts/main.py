@@ -1,18 +1,13 @@
 from load_data import get_dataset
 from BayesMethod import learn_cpts, Bayesian_probabilities, combine_probabilities
 from utils import tune_lambda_value
-import numpy as np
-import pickle
-import pandas as pd
-from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
-import matplotlib.pyplot as plt # for plotting training curves
-import seaborn as sns
 
-ds_list = [#"UniMiB SHAR",
-           #"UCI HAR",
+
+ds_list = ["UniMiB SHAR",
+           "UCI HAR",
            "TWristAR",
-           #"Leotta_2021",
-           #"Gesture Phase Segmentation"
+           "Leotta_2021",
+           "Gesture Phase Segmentation"
            ]
 for i in ds_list:
     dataset = i
@@ -29,6 +24,7 @@ with open('cpts.pickle', 'rb') as handle:
     cpts = pickle.load(handle)
 num_classes = y_train.shape[1]  # Number of classes
 sequence = y_test
+
 loaded_probabilities = {}
 for dataset in ds_list:
     loaded_probabilities[dataset] = np.load(f'predicted_probabilities_{dataset}.npy')
@@ -50,6 +46,7 @@ cm = confusion_matrix(y_test, new_y_pred)
 cm_df = pd.DataFrame(cm,
                      index = t_names,
                      columns = t_names)
+
 fig = plt.figure(figsize=(6.5,5))
 sns.heatmap(cm_df, annot=True, fmt='d', cmap='cubehelix_r')
 plt.title('CNN-Bayesian using '+dataset+'\nAccuracy:{0:.3f}'.format(accuracy_score(y_test, new_y_pred)))
