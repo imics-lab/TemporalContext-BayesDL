@@ -52,8 +52,9 @@ python scripts/main.py
 ## Models
   - [Baseline CNN](https://github.com/imics-lab/TemporalContext-BayesDL/blob/main/scripts/Baseline_CNN.ipynb)
   - [BayesDL](https://github.com/imics-lab/TemporalContext-BayesDL/blob/main/scripts/Bayesian_Method.ipynb) 
-  - [InceptionTimePlus](https://github.com/laiguokun/LSTNet)
-  - [LSTNet](https://github.com/timeseriesAI/tsai)
+  - [InceptionTimePlus](https://github.com/timeseriesAI/tsai)
+  - [TSTPlus](https://github.com/timeseriesAI/tsai)
+  - [LSTNet](https://github.com/laiguokun/LSTNet)
 
 ## Example
 Training:
