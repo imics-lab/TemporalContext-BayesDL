@@ -1,7 +1,7 @@
 # TemporalContext-BayesDL
 Enhancing Time-Series Prediction with Temporal Context Modeling: A Bayesian and Deep Learning Synergy
 
-[![Conference](https://img.shields.io/badge/Conference-2024-4b44ce.svg)](https://www.flairs-37.info/home)
+[![Conference](https://img.shields.io/badge/Conference-2024-4b44ce.svg)](https://journals.flvc.org/FLAIRS/article/view/135583)
 
 ## Table of Contents
 - [Description](#description)
