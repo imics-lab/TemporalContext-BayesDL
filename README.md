@@ -52,8 +52,8 @@ python scripts/main.py
 ## Models
   - [Baseline CNN](https://github.com/imics-lab/TemporalContext-BayesDL/blob/main/scripts/Baseline_CNN.ipynb)
   - [BayesDL](https://github.com/imics-lab/TemporalContext-BayesDL/blob/main/scripts/Bayesian_Method.ipynb) 
-  - [InceptionTimePlus](https://github.com/timeseriesAI/tsai)
-  - [TSTPlus](https://github.com/timeseriesAI/tsai)
+  - [InceptionTime](https://github.com/hfawaz/InceptionTime)
+  - [TST](https://github.com/gzerveas/mvts_transformer)
   - [LSTNet](https://github.com/laiguokun/LSTNet)
 
 ## Example
@@ -98,11 +98,11 @@ Please make sure to update tests as appropriate.
 
 
 ```bibtex
-@article{TemporalContext-BayesDL,
-  title={Enhancing Time-Series Prediction with Temporal Context Modeling: 
-         A Bayesian and Deep Learning Synergy},
+@inproceedings{irani2024enhancing,
+  title={Enhancing Time-Series Prediction with Temporal Context Modeling: A Bayesian and Deep Learning Synergy},
   author={Irani, Habib and Metsis, Vangelis},
   booktitle={The International FLAIRS Conference Proceedings},
+  volume={37},
   year={2024}
 }
 ```
